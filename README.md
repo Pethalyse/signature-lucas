@@ -5,7 +5,7 @@
   <tr>
     <td style="padding:0;margin:0;line-height:0;">
       <a href="mailto:lucas_privat@icloud.com" style="text-decoration:none;border:0;display:inline-block;">
-        <img src="[https://Pethalyse.github.io/signature-lucas/Lucas_Email_Header.png](https://pethalyse.github.io/signature-lucas/)"
+        <img src="https://Pethalyse.github.io/signature-lucas/Lucas_Email_Header.png"
              width="600" alt="Lucas Privat — Chargé de communication | +33 6 48 81 50 04 | Nîmes / Montpellier"
              style="display:block;border:0;outline:none;text-decoration:none;width:600px;max-width:100%;height:auto;">
       </a>
