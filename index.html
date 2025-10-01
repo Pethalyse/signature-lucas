@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Signature Lucas Privat</title>
+    <style>
+      body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:24px;background:#f7f2f5}
+      .wrap{max-width:660px;margin:0 auto}
+      .card{background:#fff;border:1px solid #eee;border-radius:12px;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,.04)}
+      img{display:block;max-width:100%;height:auto;border:0}
+      code{background:#f3f3f3;padding:2px 6px;border-radius:6px}
+      .snippet{margin-top:16px;padding:12px;background:#fbfbfb;border:1px dashed #ddd;border-radius:8px;font-size:14px;white-space:pre-wrap}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Signature Lucas Privat — Aperçu</h1>
+        <p>Cette page sert uniquement à vérifier l'image hébergée. L'URL ci-dessous est celle à utiliser dans votre signature HTML&nbsp;:</p>
+        <p><code><span id="url"></span></code></p>
+        <img src="Lucas_Email_Header.png" alt="Lucas Privat — Chargé de communication">
+        <div class="snippet">
+&lt;!-- Signature Lucas Privat - image hébergée via GitHub Pages --&gt;
+&lt;table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:600px;max-width:100%;"&gt;
+  &lt;tr&gt;
+    &lt;td style="padding:0;margin:0;line-height:0;"&gt;
+      &lt;a href="mailto:lucas_privat@icloud.com" style="text-decoration:none;border:0;display:inline-block;"&gt;
+        &lt;img src="<strong>https://&lt;ton-username&gt;.github.io/&lt;ton-repo&gt;/Lucas_Email_Header.png</strong>"
+             width="600" alt="Lucas Privat — Chargé de communication | +33 6 48 81 50 04 | Nîmes / Montpellier"
+             style="display:block;border:0;outline:none;text-decoration:none;width:600px;max-width:100%;height:auto;"&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+        </div>
+      </div>
+    </div>
+    <script>
+      // Try to infer the absolute URL when published on GH Pages
+      const url = window.location.href.replace(/\/index\.html?$/, '') + 'Lucas_Email_Header.png';
+      document.getElementById('url').textContent = url;
+    </script>
+  </body>
+</html>
